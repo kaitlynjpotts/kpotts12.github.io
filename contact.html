@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="wellness.css" rel="stylesheet">
+    <title>Step One Wellness // Contact</title>
+</head>
+<body class="c-body">
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fitness.html">Fitness</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+    </nav>
+        <header>
+            <p class="contact-title">
+                Contact us!
+            </p>
+        </header>
+        <main>
+            <section class="contact-section">
+            <p class="contact-intro">
+                Questions or feedback? Send us a message below.
+            </p>
+            <form class="contact-form" action="#" method="post" novalidate>
+                <!-- Name -->
+                <div class="form-row">
+                    <label for="name">Full Name</label>
+                    <input id="name" name="name" type="text" placeholder="Jane Doe" required>
+                </div>
+                <!-- Email -->
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="you@example.com" required>
+                </div>
+                <!-- Topic -->
+                <div class="form-row">
+                    <label for="topic">Topic</label>
+                    <select id="topic" name="topic" required>
+                <option value="" disabled selected>Select a topic</option>
+                    <option value="general">General Question</option>
+                    <option value="fitness">Fitness</option>
+                    <option value="nutrition">Nutrition</option>
+                    <option value="support">Technical Support</option>
+                    </select>
+                </div>
+                <!-- Message -->
+                <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="How can we help?" required></textarea>
+                </div>
+                <!-- Phone -->
+                <div class="form-row">
+                    <label for="phone">Phone (optional)</label>
+                    <input id="phone" name="phone" type="tel" placeholder="(555) 123-4567" inputmode="tel">
+                </div>
+                <!-- Consent -->
+                <div class="form-row checkbox-row">
+                    <input id="consent" name="consent" type="checkbox" required>
+                    <label for="consent">I consent that this is not a working form and that I will not be able to send information.</label>
+                </div>
+                <button class="contact-submit" type="submit">Send Message</button>
+                </form>
+            </section>
+        </main>
+    <footer>
+        <div class="footer-left">
+            <nav class="footer-nav">
+            <ul>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="mailto:kaitlynjpotts@gmail.com">Email</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div class="footer-right">
+            &copy; 2025 Step One Wellness. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
